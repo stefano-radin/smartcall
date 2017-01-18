@@ -5,9 +5,9 @@ import LDAPUser
 # Get user supplied values
 def faceDetection(image):
     #imagePath = "foto1.jpg"
-    cascPathFace = "haarcascade_frontalface_default.xml"
-    cascPathEyes = "haarcascade_eye.xml"
-    cascPathGlasses = "haarcascade_eye_tree_eyeglasses.xml"
+    cascPathFace = "haar/haarcascade_frontalface_default.xml"
+    cascPathEyes = "haar/haarcascade_eye.xml"
+    cascPathGlasses = "haar/haarcascade_eye_tree_eyeglasses.xml"
     
     # Create the haar cascade
     faceCascade = cv2.CascadeClassifier(cascPathFace)
